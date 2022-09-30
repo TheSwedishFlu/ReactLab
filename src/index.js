@@ -5,6 +5,7 @@ import Email1 from './Email01'
 import Email2 from './Email02'
 import Email3 from './Email03'
 import Email4 from './Email04'
+import Email6 from './Email06'
 
 
 
@@ -25,8 +26,9 @@ root.render(
     <Email4 />
     <Email4 />
     <Email5 />
-    
     <Email5 />
+    <Email6 />
+    <Email6 />
     
 
     
