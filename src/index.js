@@ -6,6 +6,7 @@ import Email2 from './Email02'
 import Email3 from './Email03'
 import Email4 from './Email04'
 import Email6 from './Email06'
+import Email7 from './Email07'
 
 
 
@@ -29,6 +30,10 @@ root.render(
     <Email5 />
     <Email6 />
     <Email6 />
+    <Email7 />
+    <Email7 success-message="Good work!" background="burlywood" border-thickness={20} />
+    <Email7 success-message="Extra good work" background="yellow" border-thickness={40} />
+
     
 
     
