@@ -10,7 +10,7 @@ function Email7(props) {
 
     const successMessage = props["success-message"] ?? "The email adress are the same :-)"
     const background = props["background"] ?? "white"
-    const borderThickness = props["border-thickness"] ?? 60
+    const borderThickness = props["border-thickness"] ?? 4
 
     const inputChange = (event) => {
         setInput(event.target.value)
